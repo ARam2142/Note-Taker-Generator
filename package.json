@@ -1,0 +1,23 @@
+{
+  "name": "note-taker-generator",
+  "version": "1.0.0",
+  "description": "Unit 11 Express Homework: Note Taker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARam2142/Note-Taker-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARam2142/Note-Taker-Generator/issues"
+  },
+  "homepage": "https://github.com/ARam2142/Note-Taker-Generator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

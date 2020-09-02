@@ -10,14 +10,14 @@ module.exports = function(app) {
         console.log("get");
         res.json(db);
     });
-
+    
     //POST api
     app.post('/api/notes', function (req, res) {
         res.json(db);
         const newNote = {
             id: uuidv4(),
-            noteTitle: req.body,
-            noteText: req.body 
+            noteTitle: req.body.noteTitle,
+            noteText: req.body.noteText
         }
         //add to newnote
         db.push(newNote);
