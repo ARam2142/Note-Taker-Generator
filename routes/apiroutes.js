@@ -13,6 +13,7 @@ module.exports = function(app) {
     
     //POST api
     app.post('/api/notes', function (req, res) {
+        console.log('post')
         res.json(db);
         const newNote = {
             id: uuidv4(),
