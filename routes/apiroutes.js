@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 module.exports = function(app) {
     //GET  api
     //reads the db.json file and returns saved notes in json
-    app.get("/api/notes", function(req, res) {
+    /*app.get("/api/notes", function(req, res) {
         console.log("get");
         res.json(db);
     });
@@ -17,8 +17,8 @@ module.exports = function(app) {
         res.json(db);
         const newNote = {
             id: uuidv4(),
-            noteTitle: req.body.noteTitle,
-            noteText: req.body.noteText
+            title: req.body.title,
+            text: req.body.text
         }
         //add to newnote
         db.push(newNote);
@@ -27,7 +27,7 @@ module.exports = function(app) {
             if (err) throw err;
             console.log('The file has been saved!');
           });
-    })
+    })*/
 
     //DELETE api
 
