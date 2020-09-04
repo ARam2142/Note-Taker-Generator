@@ -6,11 +6,11 @@ const { v4: uuidv4 } = require('uuid');
 module.exports = function(app) {
     //GET  api
     //reads the db.json file and returns saved notes in json
-    /*app.get("/api/notes", function(req, res) {
-        console.log("get");
-        res.json(db);
-    });
-    
+        app.get("api/notes", function(req, res) {
+            console.log("get");
+            res.json(db);
+        });
+
     //POST api
     app.post('/api/notes', function (req, res) {
         console.log('post')
@@ -26,8 +26,8 @@ module.exports = function(app) {
         fs.writeFile('./db/db.json', JSON.stringify(db), (err) => {
             if (err) throw err;
             console.log('The file has been saved!');
-          });
-    })*/
+        });
+    });
 
     //DELETE api
 
