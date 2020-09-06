@@ -1,4 +1,3 @@
-//Series of npm packages that we will use to give our server useful functionality
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -16,4 +15,3 @@ require("./routes/htmlRoutes")(app);
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
-
