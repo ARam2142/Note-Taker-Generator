@@ -23,5 +23,6 @@
     "nodemon": "^2.0.4",
     "path": "^0.12.7",
     "require-stack": "^1.0.2"
-  }
+  },
+  "devDependencies": {}
 }
