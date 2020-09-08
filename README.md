@@ -6,6 +6,10 @@
 
 This application generatres notes for the user. It is powered by jQuery, javascript, html, css, node js and express js. When the user enters he/she will be able to enter notes which can be saved and then stored on the right side of the application. If you dont like the notes you can put them in the trash by clicking the trash can icon on the side. For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
+# livedemo
+
+https://tranquil-woodland-71252.herokuapp.com/notes
+
 # Installation
 
 Open up github
